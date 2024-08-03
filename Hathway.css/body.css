@@ -1,0 +1,25 @@
+.homepage {
+    background-color: white;  
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    height: 500px;
+    padding-left: 85px;
+    padding-right: 70px;
+    border-bottom: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    padding-bottom: 38px;
+}
+  .first-page {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   margin-top: 0px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 17px;
+   color: rgb(132, 50, 132); 
+  }
+
+  .first-page:hover{
+    color: rgb(246, 88, 115);
+  }
