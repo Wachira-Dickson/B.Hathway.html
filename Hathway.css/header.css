@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    border-bottom: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    padding-bottom: 13px;
+    background-color: white;
+    color: rgb(13, 13, 114);
+}
+.company-name{
+    font-family: Times 'Times New Roman', Times, serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+.company-name .highlight {
+    font-size: 30px; /* Adjust this size as needed */
+}
+.company-name .base{
+    font-size: 14px;
+}
+
+.company-address{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 13px;
+   font-weight: bold;
+}
+.company-homepage{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+}
