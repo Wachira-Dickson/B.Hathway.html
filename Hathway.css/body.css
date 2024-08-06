@@ -2,7 +2,7 @@
     background-color: white;  
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    height: 500px;
+    height: 475px;
     padding-left: 85px;
     padding-right: 70px;
     border-bottom: 1px;
@@ -17,9 +17,44 @@
    margin-top: 0px;
    font-family: 'Times New Roman', Times, serif;
    font-size: 17px;
-   color: rgb(132, 50, 132); 
+   color: violet;
   }
 
   .first-page:hover{
     color: rgb(246, 88, 115);
+  }
+  .geico-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    color: rgb(13, 13, 114);
+    font-size: 11px;
+  }
+  .geico-logo{
+    width: 75px;
+    height: 14px;
+  }
+  .geico-web{
+    font-size: 13px;
+    color: rgb(13, 13, 114) ;
+    border-bottom: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+  }
+
+  .legal-disclaimer{
+    color: rgb(13, 13, 114) ;
+    font-size: 13px;
+  }
+ 
+  .copyright-hathway{
+    font-weight: bold;
   }
